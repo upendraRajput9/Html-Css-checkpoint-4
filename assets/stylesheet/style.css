@@ -312,8 +312,11 @@ h1{
 #toggle{
     display: none;
 }
-.bars i{
- color: transparent;
+.bars{
+ display: none;
+}
+#toggle{
+    display: none;
 }
 
 /* Hero */
