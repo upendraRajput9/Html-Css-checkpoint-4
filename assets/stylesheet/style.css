@@ -1011,7 +1011,7 @@ padding: 1rem 0;
     .board{
         left: 1rem;
         right: 1rem;
-        top: 40%;
+        top: 35%;
         
     }
     .sites{
@@ -1041,6 +1041,7 @@ padding: 1rem 0;
     .faq-info{
         width: 100%;
     }
+    
     /* navigation */
     .nav{
         display: none;
