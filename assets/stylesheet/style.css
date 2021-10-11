@@ -1041,6 +1041,10 @@ padding: 1rem 0;
     .faq-info{
         width: 100%;
     }
+    .footer-ul li{
+        margin: 0 0.5rem;
+        padding-bottom: 3rem;
+    }
     
     /* navigation */
     .nav{
@@ -1082,6 +1086,12 @@ padding: 1rem 0;
     .bars{
         display: block;
     }
+    .sm-padding{
+        padding: 0 1.5rem;
+    }
+    .sm-xl-padding{
+        padding-bottom: 30rem;
+    }
    
 }
 /* pixel-2 */
@@ -1092,6 +1102,9 @@ padding: 1rem 0;
    
     .about{
         margin-top: 120%;
+    }
+    .sm-xl-padding{
+        padding-bottom: 7rem;
     }
     
 }
