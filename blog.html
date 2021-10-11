@@ -22,19 +22,45 @@
     <header id="home" class="nav-bar header">
         <div class="flex container">
             <h1>Flexor</h1>
-            <nav>
-                <ul class="flex bar sm-column">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#service">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li id="active"><a href="blog.html">Blog</a></li>
-                    <li><a href="#">Drop Down</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <label class="bars" for="toggle">
+                <i class="fas fa-bars"></i>
+            </label>
+            <input id="toggle" type="checkbox">
+        <nav class="nav">
+            <ul class="flex bar sm-column">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li id="active"><a href="blog.html">Blog</a></li>
+                <li>
+                    <a href="#">Drop Down  <i class="fas fa-angle-down"></i></a>
+                    <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">Down Drop 1</a></li>
+                        <li><a href="#">Down Drop 2</a></li>
+                        <li><a href="#">Down Drop 3</a></li>
+                        <li class="dropdown">
+                         <a href="#">Down Drop 4</a> <i class="fas fa-angle-right"></i>
+                            <div class="sub-menu-1">
+                                <ul>
+                                    <li><a href="#">Down Drop down 1</a></li>
+                                    <li><a href="#">Down Drop down 2</a></li>
+                                    <li><a href="#">Down Drop down 3</a></li>
+                                    <li><a href="#">Down Drop down 4</a></li>
+                                    <li><a href="#">Down Drop down 5</a></li>
+                                </ul>
+                            </div>
+                            </li>
+                        <li><a href="#">Down Drop 5</a></li>
+                    </ul>
+                    </div>
+                    </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
         </div>
     </header>
     <!-- Main -->
@@ -163,38 +189,38 @@
      <!-- footer -->
      <footer>
         <div class="join flex sm-column sm-full-width container start">
-         <address class="join-address sm-full-width flex-23">
-             <h2>Flexor</h2>
-             <span>
+             <address class="join-address sm-full-width flex-23">
+                   <h2>Flexor</h2>
+               <span>
                  A108 Adam street New York NY 221303UNited state
-             </span>
-<strong>
-   <b>Phone</b>: +189034887790358
-   <b>Email</b>: info@gmail.com
-</strong>
-         </address>
-         <div class="flex sm-column  flex-32">
-             <nav class="sm-full-width">
-                 <h3>Useful Links</h3>
-                 <ul>
-                <li>
-                    <a href="#"><i class="fas fa-angle-right"></i>Home</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fas fa-angle-right"></i>About Us</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fas fa-angle-right"></i>Service</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fas fa-angle-right"></i>Terms of service</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fas fa-angle-right"></i>Privacy policy</a>
-                </li>
+               </span>
+               <strong>
+                  <b>Phone</b>: +189034887790358
+                  <b>Email</b>: info@gmail.com
+               </strong>
+             </address>
+             <div class="flex sm-column  flex-32">
+                  <nav class="sm-full-width">
+                     <h3>Useful Links</h3>
+                     <ul>
+                       <li>
+                          <a href="#"><i class="fas fa-angle-right"></i>Home</a>
+                        </li>
+                         <li>
+                           <a href="#"><i class="fas fa-angle-right"></i>About Us</a>
+                         </li>
+                        <li>
+                          <a href="#"><i class="fas fa-angle-right"></i>Service</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fas fa-angle-right"></i>Terms of service</a>
+                     </li>
+                         <li>
+                           <a href="#"><i class="fas fa-angle-right"></i>Privacy policy</a>
+                         </li>
                
-                 </ul>
-             </nav>
+                     </ul>
+                  </nav>
              <nav class="sm-full-width">
                 <h3>Useful Links</h3>
                 <ul>
@@ -217,7 +243,7 @@
                 </ul>
             </nav>
                  
-         </div>
+             </div>
          <div class="flex-25 sm-full-width">
              <h3>Join Our Newsletter</h3>
              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, quia!</p>
