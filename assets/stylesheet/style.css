@@ -289,6 +289,8 @@ h1{
 .sub-menu-1{
     width: 12rem;
     box-shadow: 0 0 2rem 0 rgb(0, 0, 0);
+
+    
 }
 .nav ul li:hover .sub-menu{
     display: block;
@@ -869,7 +871,6 @@ footer{
  border: none;
  position: absolute;
 right: 0;
- 
 }
 .join-form input::placeholder{
     color: white;
@@ -1098,6 +1099,19 @@ padding: 1rem 0;
     }
     .padding-top-bottom{
         padding: 6rem 2rem 0;
+    }
+    .sm-sub-menu{
+        width: 12rem;
+        box-shadow: 0 0 2rem 0 rgb(0, 0, 0);
+       left: 15rem;
+        bottom: 1rem;
+      font-size: 1.1rem;
+        width: 13rem;
+    }
+    .join-form input{
+        z-index: 99;
+       
+       width: 28%;
     }
    
 }
