@@ -959,6 +959,10 @@ padding: 1rem 0;
     color: rgb(54, 54, 54);
     font-weight: 700;
 }
+.rows{
+    flex-direction: row;
+    display: flex;
+}
 .blog strong{
     color: var(--primary);
 }
@@ -1091,6 +1095,9 @@ padding: 1rem 0;
     }
     .sm-xl-padding{
         padding-bottom: 30rem;
+    }
+    .padding-top-bottom{
+        padding: 6rem 2rem 0;
     }
    
 }
