@@ -186,7 +186,9 @@ color: var(--primary);
     background-color: var(--primary);
     color: white;
 }
-
+.mission div:hover :nth-child(n){
+    color: white;
+}
 .portfolio-bar li:hover{
     background-color: rgba(234, 83, 51, 0.5);
     color: var(--primary);
@@ -996,6 +998,34 @@ padding: 1rem 0;
     color: gray;
    
 }
+@media screen and (max-width: 1024px) {
+    html{
+        font-size: 14px;
+    }
+    .sm-ipad-column{
+        flex-direction: column;
+    }
+    .sm-ipad-flex-47{
+        flex: 0 1 47%;
+    }
+    .sm-ipad-wrap{
+        flex-wrap: wrap;
+    }
+    .board{
+        left: 1rem;
+        right: 1rem;
+        top: 35%;
+        
+    }
+    .about{
+        margin-top: 70%;
+    }
+    .about-img img{
+        width: 100%;
+       height: 100%;
+    }
+    
+}
 @media screen and (max-width: 768px) {
     html{
         font-size: 10px;
@@ -1013,19 +1043,12 @@ padding: 1rem 0;
     .flex-10, .flex-20, .flex-23, .flex-25, .flex-30, .flex-32, .flex-35, .flex-40, .flex-45, .flex-48, .flex-49, .flex-5, .flex-50, .flex-55, .flex-60, .flex-93{
         flex: 1 1 100%;
     }
-    .board{
-        left: 1rem;
-        right: 1rem;
-        top: 35%;
-        
-    }
+    
     .sites{
        width: 100%;
        margin-top: 2rem;
     }
-    .about{
-        margin-top: 70%;
-    }
+    
     .team-info article{
         margin-bottom: 2rem;
     }
@@ -1134,6 +1157,16 @@ padding: 1rem 0;
        margin-top: 100%;
 }
 }
+/* moto g4 */
+@media screen and (max-width: 360px) {
+    html{
+        font-size: 8px;
+    }
+    .join-form input{
+        margin-left: 84.5%;
+    }
+}
+    
 /* i phone x */
 @media screen and (max-width: 375px) {
     .about{
@@ -1145,12 +1178,6 @@ padding: 1rem 0;
        margin-top: 130%;
 }
 }
-/* moto g4 */
-@media screen and (max-width: 360px) {
-    html{
-        font-size: 8px;
-    }
-    .join-form input{
-        margin-left: 84.5%;
-    }
-}
+
+    
+
